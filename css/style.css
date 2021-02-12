@@ -255,7 +255,6 @@ button, input, optgroup, select, textarea {
 .animationsTow {
     animation: zoominoutsinglefeaturedTow 1s forwards;
 }
-}
 
 #input_volume_ADV {
     display: none;
@@ -293,7 +292,6 @@ button, input, optgroup, select, textarea {
     opacity: 0;
     }
 }
-
 
 @media only screen and (max-width:1200px) {
     .speed {
