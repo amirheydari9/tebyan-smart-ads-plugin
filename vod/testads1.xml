@@ -1,0 +1,43 @@
+<VAST version="3.0">
+    <Ad id="1">
+        <InLine>
+            <AdSystem>Tavoos</AdSystem>
+            <AdTitle>کلیک کنید</AdTitle>
+            <Description>سه کلیک</Description>
+            <Creatives>
+                <Creative sequence="1" id="1">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/event/start]]></Tracking>
+                            <Tracking event="progress" offset="00:00:05.000">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/time/midpoint]]></Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/event/firstQuartile]]></Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/event/midpoint]]></Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/event/thirdQuartile]]></Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171/campaigns/683/contents/1076/5fcb6e1f6bdad/QJ2sG9mJOl/event/complete]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://tavoos.net/services/click/vast/redirect?url=https%3A%2F%2F3click.com%2F%3Futm_source%3Dtavoos%26utm_medium%3Dpreroll%26utm_content%3Dtebyan.net%26utm_campaign%3D3click%26utm_term%3D5secondvideo%26tavoos_campaign%3Dcamp-683%26tavoos_widget%3D171&gtoken=QJ2sG9mJOl]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="" type="application/x-mpegURL">
+                                <![CDATA[https://afra-cdn-1.tavoos.net/1076/yquyKgbvtlt8TQ6Ov8cPNTyWKTPZPQkBZfdTu5Ve945-HLS.m3u8]]></MediaFile>
+                            <MediaFile delivery="" type="video/mp4">
+                                <![CDATA[https://afra-cdn-1.tavoos.net/1076/yquyKgbvtlt8TQ6Ov8cPNTyWKTPZPQkBZfdTu5Ve530-vast.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+
+<!--<VAST>There is no ad to show with your specifications.</VAST>-->

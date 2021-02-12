@@ -60,10 +60,7 @@ function constructAdList(responseObj) {
     } else {
         adsClickLink = null;
     }
-    // if (!AdList[0].source) {
-    //     videoTag.play();
-    //     return;
-    // }
+
     videoTag.addEventListener('timeupdate', showAdSlots, false);
 }
 
@@ -247,13 +244,7 @@ function showSlot(slot) {
 
 
 function slotForCurrentTime(currentTime) {
-    // for (v in AdList) {
-    //     if (!AdList[v].seen) {
-    //         if (AdList[v].time == currentTime) {
-    //             return AdList[v];
-    //         }
-    //     }
-    // }
+
     for (v in AdList) {
         if (!AdList[v].seen && AdList[v].source) {
             if (AdList[v].time == currentTime) {
@@ -295,22 +286,9 @@ var supposedCurrentTime = 0;
 var AdObj;
 
 function initAdsFor(videoID) {
-    // window.tempTime = 0;
-    // window.skipAdsTime = 5;
-    // window.countDownInterval;
-    // window.countDown = 5;
-
-    // window.startFired = false;
-    // window.proggressFired = false;
-    // window.firstQuartileFired = false;
-    // window.midpointFired = false;
-    // window.thirdQuartileFired = false;
-    // window.completeFired = false;
 
     window.videoTag = document.getElementById(videoID);
     videoTag.mainTrack = videoTag.src;
-    // window.AdList = new Array;
-    // window.supposedCurrentTime = 0;
 
     AdObj = parseAdsParameters(videoTag.getAttribute('ads'));
     AdsRequest(AdObj);
@@ -416,8 +394,6 @@ manageEndedMainVideo = function () {
     if (videoTag.mainTrack === videoTag.src) {
         AdList.forEach(item => item.seen = false);
         countDown = 5;
-        // اگه بخوایم بعد از یکبار پخش تبلیغ با پخش مجدد ویدیو دیگه تبلیغ پخش نشه
-        // videoTag.addEventListener('ended', manageEndedMainVideo, false);
         videoTag.addEventListener('timeupdate', getAdsSource, false);
     }
 }

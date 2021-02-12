@@ -19,7 +19,13 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-10 col-12 mt-5 d-flex justify-content-center align-items-center" id="default-palyer">
                 <div class="myplayer w-100">
-                    <video src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" id="player"></video>
+                    <video
+                            src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" id="player"
+                            ads='{
+            "servers": [{"apiAddress": "vod/testads1.xml"}],
+            "schedule": [{"position": "pre-roll"}]
+        }'
+                    ></video>
                 </div>
             </div>
         </div>
@@ -28,6 +34,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/tebyan-smart-ads-plugin.js"></script>
-    <script>initAdsFor("example_video_1");</script>
+    <script>initAdsFor("player");</script>
 </body>
 </html>

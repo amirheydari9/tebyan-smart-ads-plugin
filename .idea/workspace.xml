@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="reform" />
+    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vod/sample.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vod/sample2.m4v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vod/testads1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +26,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/golrang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Downloads\video_player-master(3)\video_player-master\video_player-master" />
+      <recent name="C:\Users\lenovo\Downloads\video_player-master(3)\video_player-master\video_player-master\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613117376288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add js plugin">
+      <created>1613119656333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613119656333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,6 +75,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="reform" />
-    <option name="LAST_COMMIT_MESSAGE" value="reform" />
+    <MESSAGE value="add js plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add js plugin" />
   </component>
 </project>
