@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/skipads.css" afterDir="false" />
+    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="skip ads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
@@ -53,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613116521286</updated>
       <workItem from="1613116527730" duration="2307000" />
-      <workItem from="1613122845289" duration="937000" />
+      <workItem from="1613122845289" duration="2839000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1613117064844</created>
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613121754740</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="skip ads">
+      <created>1613124082508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613124082508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +116,7 @@
     <MESSAGE value="import ads plugin" />
     <MESSAGE value="change video selector" />
     <MESSAGE value="add rate item class in each li" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rate item class in each li" />
+    <MESSAGE value="skip ads" />
+    <option name="LAST_COMMIT_MESSAGE" value="skip ads" />
   </component>
 </project>
