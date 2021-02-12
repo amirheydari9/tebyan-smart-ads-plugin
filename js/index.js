@@ -36,7 +36,7 @@ myplayers.forEach(function (myplayer) {
         </div>
         <div class="right">
             <div class=" btns pic">
-                <img src="../img/Pic_in_pic.svg" alt=""/>
+                <img src="./img/Pic_in_pic.svg" alt=""/>
             </div>
             <div class="btns setting">
                 <img src="./img/Setting.svg" alt=""/>

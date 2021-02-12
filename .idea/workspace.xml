@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613116521286</updated>
       <workItem from="1613116527730" duration="2307000" />
-      <workItem from="1613122845289" duration="2839000" />
+      <workItem from="1613122845289" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1613117064844</created>
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613124082508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="w , h video">
+      <created>1613125833258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613125833258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="change video selector" />
     <MESSAGE value="add rate item class in each li" />
     <MESSAGE value="skip ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="skip ads" />
+    <MESSAGE value="w , h video" />
+    <option name="LAST_COMMIT_MESSAGE" value="w , h video" />
   </component>
 </project>
