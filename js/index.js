@@ -49,10 +49,10 @@ myplayers.forEach(function (myplayer) {
             </div>
         </div>
         <ul class="speed">
-            <li onclick={changeSpeed(this,2)}>2X</li>
-            <li onclick={changeSpeed(this,1.5)} >1.5X</li>
-            <li onclick={changeSpeed(this,1)} class="active">1X</li>
-            <li onclick={changeSpeed(this,0.5)}>0.5X</li>
+            <li class="speed_rate_item"  onclick={changeSpeed(this,2)}>2X</li>
+            <li class="speed_rate_item" onclick={changeSpeed(this,1.5)} >1.5X</li>
+            <li class="active speed_rate_item" onclick={changeSpeed(this,1)} >1X</li>
+            <li class="speed_rate_item" onclick={changeSpeed(this,0.5)}>0.5X</li>
         </ul>
     </div>`;
 
@@ -358,7 +358,7 @@ let palyer = document.querySelector("#player");
 
 function changeSpeed(el, int) {
     palyer.playbackRate = int;
-    document.querySelectorAll("li").forEach(item => {
+    Array.from(document.getElementsByClassName("speed_rate_item")).forEach(item => {
         item.classList.remove("active");
     });
     el.classList.add("active");

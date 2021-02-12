@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="import ads plugin">
+    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613119848014</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change video selector">
+      <created>1613120992097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613120992097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +90,7 @@
     <MESSAGE value="reform" />
     <MESSAGE value="add js plugin" />
     <MESSAGE value="import ads plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="import ads plugin" />
+    <MESSAGE value="change video selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="change video selector" />
   </component>
 </project>
