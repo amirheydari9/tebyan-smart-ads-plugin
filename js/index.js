@@ -308,7 +308,6 @@ myplayers.forEach(function (myplayer) {
         media.addEventListener("timeupdate", function () {
             current_time.textContent = gettime(media.currentTime);
             let barlength = (media.currentTime / media.duration) * 100;
-            console.log(barlength);
             divADv.style.background = `linear-gradient(90deg, rgba(0, 206,209, 1) ${barlength}%, #000000E6 0%)`;
 
         });
