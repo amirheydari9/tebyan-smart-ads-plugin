@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vod/sample.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vod/sample2.m4v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vod/testads1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="import ads plugin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613119656333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="import ads plugin">
+      <created>1613119848014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613119848014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +80,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="reform" />
     <MESSAGE value="add js plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add js plugin" />
+    <MESSAGE value="import ads plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="import ads plugin" />
   </component>
 </project>

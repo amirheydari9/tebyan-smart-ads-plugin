@@ -233,7 +233,7 @@ function showSlot(slot) {
     }, 1000);
 
     var intervalAd = setInterval(function () {
-        if ($('#example_video_1').get(0).currentTime > skipAdsTime + 0.1) {
+        if ($('#player').get(0).currentTime > skipAdsTime + 0.1) {
             $(".skipBtn").removeClass("disabled");
             clearInterval(intervalAd);
         }
@@ -408,7 +408,7 @@ function setPostRollTime() {
 }
 
 $(document).on('click', '.skipBtn', function (e) {
-    if ($('#example_video_1').get(0).currentTime < skipAdsTime) {
+    if ($('#player').get(0).currentTime < skipAdsTime) {
         return;
     }
     resumePlayBackAfterSlotShow()
