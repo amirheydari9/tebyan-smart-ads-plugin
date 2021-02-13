@@ -36,7 +36,7 @@ myplayers.forEach(function (myplayer) {
         </div>
         <div class="right">
             <div class=" btns pic">
-                <img src="../img/Pic_in_pic.svg" alt=""/>
+                <img src="./img/Pic_in_pic.svg" alt=""/>
             </div>
             <div class="btns setting">
                 <img src="./img/Setting.svg" alt=""/>
@@ -49,10 +49,10 @@ myplayers.forEach(function (myplayer) {
             </div>
         </div>
         <ul class="speed">
-            <li onclick={changeSpeed(this,2)}>2X</li>
-            <li onclick={changeSpeed(this,1.5)} >1.5X</li>
-            <li onclick={changeSpeed(this,1)} class="active">1X</li>
-            <li onclick={changeSpeed(this,0.5)}>0.5X</li>
+            <li class="speed_rate_item"  onclick={changeSpeed(this,2)}>2X</li>
+            <li class="speed_rate_item" onclick={changeSpeed(this,1.5)} >1.5X</li>
+            <li class="active speed_rate_item" onclick={changeSpeed(this,1)} >1X</li>
+            <li class="speed_rate_item" onclick={changeSpeed(this,0.5)}>0.5X</li>
         </ul>
     </div>`;
 
@@ -308,7 +308,6 @@ myplayers.forEach(function (myplayer) {
         media.addEventListener("timeupdate", function () {
             current_time.textContent = gettime(media.currentTime);
             let barlength = (media.currentTime / media.duration) * 100;
-            console.log(barlength);
             divADv.style.background = `linear-gradient(90deg, rgba(0, 206,209, 1) ${barlength}%, #000000E6 0%)`;
 
         });
@@ -358,7 +357,7 @@ let palyer = document.querySelector("#player");
 
 function changeSpeed(el, int) {
     palyer.playbackRate = int;
-    document.querySelectorAll("li").forEach(item => {
+    Array.from(document.getElementsByClassName("speed_rate_item")).forEach(item => {
         item.classList.remove("active");
     });
     el.classList.add("active");

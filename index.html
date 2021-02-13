@@ -7,7 +7,8 @@
     <title>Custom Video Player</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="stylesheet" href="./css/skipads.css">
+
 </head>
 <body>
     <div class="container-fluid px-0">
@@ -19,12 +20,24 @@
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-10 col-12 mt-5 d-flex justify-content-center align-items-center" id="default-palyer">
                 <div class="myplayer w-100">
-                    <video src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" id="player"></video>
+                    <video
+                            src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" id="player"
+                            width="100%"
+                            height="100%"
+                            ads='{
+            "servers": [{"apiAddress": "http://local.tavoos.net/services/vast/pBtaGVLF-mPeA-4Bez-VVPA-j7NV7mA1SCpc/171"}],
+            "schedule": [{"position": "pre-roll"}]
+        }'
+                    ></video>
+                    <span class="skipBtn"></span>
                 </div>
             </div>
         </div>
     </div> 
-    
+    <script src="./js/jquery-3.0.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/tebyan-smart-ads-plugin.js"></script>
+    <script>initAdsFor("player");</script>
 </body>
 </html>
