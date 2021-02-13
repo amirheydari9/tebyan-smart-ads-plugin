@@ -296,38 +296,46 @@ function initAdsFor(videoID) {
     videoTag.addEventListener('play', getAdsSource, false);
     videoTag.addEventListener('pause', managePauseVideo, false);
     videoTag.addEventListener('ended', manageEndedMainVideo, false);
+
+    // videoTag.addEventListener('timeupdate', function () {
+    //     if (!videoTag.seeking && videoTag.mainTrack !== videoTag.src) {
+    //         supposedCurrentTime = videoTag.currentTime;
+    //     }
+    // });
+
     videoTag.addEventListener('timeupdate', function () {
-        if (!videoTag.seeking && videoTag.mainTrack !== videoTag.src) {
-            supposedCurrentTime = videoTag.currentTime;
+        if (videoTag.mainTrack !== videoTag.src) {
+            console.log('aaaasasaasas');
+
         }
     });
 
-    videoTag.addEventListener('seeking', function (e) {
-        if (videoTag.mainTrack === videoTag.src) {
-            if (AdList.every(item => !item.seen)) {
-                videoTag.currentTime = 0;
-            }
-        }
-        if (videoTag.mainTrack !== videoTag.src) {
-            clearInterval(countDownInterval);
-            const delta = videoTag.currentTime - supposedCurrentTime;
-            if (Math.abs(delta) > 0.01) {
-                videoTag.currentTime = supposedCurrentTime;
-                if ($('.skipBtn').text() !== 'skip ads') {
-                    videoTag.addEventListener('timeupdate', resumeAdsVideo, false);
-                }
-            }
-        }
-    }, false);
+    // videoTag.addEventListener('seeking', function (e) {
+    //     if (videoTag.mainTrack === videoTag.src) {
+    //         if (AdList.every(item => !item.seen)) {
+    //             videoTag.currentTime = 0;
+    //         }
+    //     }
+    //     if (videoTag.mainTrack !== videoTag.src) {
+    //         clearInterval(countDownInterval);
+    //         const delta = videoTag.currentTime - supposedCurrentTime;
+    //         if (Math.abs(delta) > 0.01) {
+    //             videoTag.currentTime = supposedCurrentTime;
+    //             if ($('.skipBtn').text() !== 'skip ads') {
+    //                 videoTag.addEventListener('timeupdate', resumeAdsVideo, false);
+    //             }
+    //         }
+    //     }
+    // }, false);
 
-    videoTag.addEventListener('seeked', function (e) {
-        if (videoTag.mainTrack !== videoTag.src) {
-            clearInterval(countDownInterval);
-            if ($('.skipBtn').text() !== 'skip ads') {
-                videoTag.addEventListener('timeupdate', resumeAdsVideo, false);
-            }
-        }
-    }, false);
+    // videoTag.addEventListener('seeked', function (e) {
+    //     if (videoTag.mainTrack !== videoTag.src) {
+    //         clearInterval(countDownInterval);
+    //         if ($('.skipBtn').text() !== 'skip ads') {
+    //             videoTag.addEventListener('timeupdate', resumeAdsVideo, false);
+    //         }
+    //     }
+    // }, false);
 }
 
 getAdsSource = function () {
@@ -353,7 +361,7 @@ managePauseVideo = function () {
     if (videoTag.mainTrack !== videoTag.src) {
         if (videoTag.currentTime !== videoTag.duration) {
             if (adsClickLink) {
-                window.open(adsClickLink, '_blank');
+                // window.open(adsClickLink, '_blank');
             }
         }
         clearInterval(countDownInterval);

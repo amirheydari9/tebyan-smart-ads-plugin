@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6497a35-0d27-4628-ae06-50f3fe661d3d" name="Default Changelist" comment="skip ads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tebyan-smart-ads-plugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613116521286</updated>
       <workItem from="1613116527730" duration="2307000" />
-      <workItem from="1613122845289" duration="3190000" />
+      <workItem from="1613122845289" duration="4563000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1613117064844</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613125833258</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pic uri">
+      <created>1613126237766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613126237766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +130,7 @@
     <MESSAGE value="add rate item class in each li" />
     <MESSAGE value="skip ads" />
     <MESSAGE value="w , h video" />
-    <option name="LAST_COMMIT_MESSAGE" value="w , h video" />
+    <MESSAGE value="pic uri" />
+    <option name="LAST_COMMIT_MESSAGE" value="pic uri" />
   </component>
 </project>
